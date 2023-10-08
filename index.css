@@ -1,0 +1,15 @@
+.menu{
+    /*讓項目水平排列*/
+    display:flex;
+   width: 250px;
+    background-color:green;
+}
+.every{
+    display:flex;
+    justify-content:center;
+    background-color:#cccccc;
+}
+.text{
+    font-weight:bold;
+    text-align: center;
+}
