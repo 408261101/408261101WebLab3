@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <!--練習用的網頁-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".text h2").css("color", "red");
+    $(".text h2").addClass("animated shake");
+    $("table").css("border", "2px solid red");
+    $("table").css("width", "400px");
+    $("table").css("padding", "20px");
+    });
+  </script>
 <html>
     <head>
         <meta charset="utf-8"/>
         <title>我的首頁</title>
-        <link rel="stylesheet"type="text/css"href="index.css"/>
+        <link rel="stylesheet"type="text/css"href="home.css"/>
     </head>
     <body>
         <p style="font-family: sans-serif;"><abbr title="蔡英文">Tsai Ing-wen</abbr></p>
